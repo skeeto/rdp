@@ -123,6 +123,8 @@
 
 ;;; Code:
 
+(eval-when-compile (require 'cl))
+
 (defvar rdp-best 0
   "The furthest most point that parsing reached. This information
 can be used to determine where parsing failed.")
