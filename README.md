@@ -13,7 +13,7 @@ automatic indentation is
 SMIE is probably better suited if that's your goal -- to implement
 indentation but not fully parse a language as rdp would.
 
-Full documentation can be found in the[commentary section of
+Full documentation can be found in the [commentary section of
 `rdp.el`](https://github.com/skeeto/rdp/blob/master/rdp.el).
 
 ## Example
