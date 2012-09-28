@@ -14,8 +14,8 @@
 
 ;; In general, the only two functions you need to worry about are:
 
-;; * `rpd-parse'        -- parse the current buffer
-;; * `rpd-parse-string' -- parse a string (in a temp buffer)
+;; * `rdp-parse'        -- parse the current buffer
+;; * `rdp-parse-string' -- parse a string (in a temp buffer)
 
 ;; A grammar is provided to the parser as an alist of patterns.
 ;; Patterns are named by symbols, which can reference other
@@ -111,7 +111,7 @@
 ;; tokens indicating roughly where in the parse tree the point
 ;; lies.
 
-;; To use this for rudimentary indentation, set `rpd-start' to the
+;; To use this for rudimentary indentation, set `rdp-start' to the
 ;; `beginning-of-line' of the current point and count how many
 ;; indent-worthy tokens are in the stack once parsing is complete.
 
