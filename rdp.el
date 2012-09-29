@@ -27,7 +27,7 @@
 ;; * symbol -- recursive reference to another pattern in the alist
 
 ;; The global variable `rdp-best' indicates the furthest point reached
-;; in the buffer by the parser. Is parsing failed (i.e. `rdp-best' is
+;; in the buffer by the parser. If parsing failed (i.e. `rdp-best' is
 ;; not at the end of the buffer), this is likely to be the position of
 ;; the syntax error.
 
