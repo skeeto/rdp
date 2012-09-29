@@ -100,6 +100,12 @@
 ;; functions are free to return nil or the empty list as such a return
 ;; is *not* an indication of failure.
 
+;; By default, whitespace is automatically consumed between matches
+;; using the function `rdp-skip-whitespace'. If some kinds of
+;; whitespace are important or if there are other characters that need
+;; to be skipped, temporarily override this function with your own
+;; definition using `flet' when calling `rdp-parse'.
+
 ;; In general don't try to parse comments in the grammar. Strip them
 ;; from the buffer before calling the parser.
 
