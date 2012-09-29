@@ -118,6 +118,8 @@
 ;; See also:
 
 ;; * http://emacswiki.org/emacs/peg.el
+;; * http://www.gnu.org/software/emacs/manual/html_node/elisp/SMIE.html
+;; * http://cedet.sourceforge.net/semantic.shtml
 ;; * http://en.wikipedia.org/wiki/Recursive_descent_parser
 ;; * http://en.wikipedia.org/wiki/Parsing_expression_grammar
 
